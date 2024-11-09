@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Study Tracker</h1>
+    <!-- Form to log study sessions -->
+    <form id="study-form">
+        <input type="text" id="subject" placeholder="Enter Subject" required>
+        <input type="number" id="time" placeholder="Time (in hours)" required>
+        <button type="submit">Add Session</button>
+    </form>
+    <!-- Section to display study log -->
+    <div id="study-log">
+        <h2>Study Sessions</h2>
+        <ul id="session-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
